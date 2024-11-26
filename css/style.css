@@ -1,0 +1,218 @@
+/* Welcome Page*/
+/* Welcome Page*/
+/* Welcome Page*/
+
+@font-face{
+    font-family:"font";
+    src: url(opificio_bold_rounded.ttf);
+}
+
+@font-face {
+    font-family: "alt_font";
+    src: url(opificio_bold.ttf);
+}
+
+#odin {
+    border: 5px solid;
+    border-radius: 50%;
+    border-color:rgb(252, 186, 3);
+}
+
+.w_page{
+    border: 5px solid;
+    background-color: rgba(255,255,255, 0.75);
+    width:900px;
+    height:900px;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:auto;
+}
+
+.links{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 400px;
+    margin-top: 80px;
+ }
+ 
+ .links a{
+     color:black;
+     font-family:"font";
+     text-decoration: none;
+     font-size:x-large;
+     font-weight:bolder;
+     margin:0px auto 20px auto;
+     width:400px;
+     display:block;
+     border: 2px solid;
+     border-radius: 7px;
+     background-color:white;
+ }
+
+.ipage{
+    background-image:url(https://motionarray.imgix.net/preview-1593723-tBnYiMCuoP411WzV-large.jpg?w=660&q=60&fit=max&auto=format);
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.ipage h1{
+    font-family: "font";
+    color:rgb(252, 186, 3);
+    font-weight: bold;
+    font-size:70px;
+}
+
+.ipage h2{
+    font-family: "font";
+    font-size:60px;
+}
+
+
+/* Burger_recipe page */
+/* Burger_recipe page */
+/* Burger_recipe page */
+
+.bcontent img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border:5px solid rgb(253, 174, 4);
+    border-radius: 50%;
+}
+
+.burger_body{
+    background-image: url(https://motionarray.imgix.net/preview-1593723-tBnYiMCuoP411WzV-large.jpg?w=660&q=60&fit=max&auto=format);
+    background-attachment:fixed
+}
+
+
+.bcontent h2{
+    font-family:"alt_font";
+    color:rgb(253, 174, 4);
+}
+
+.bcontent h1{
+    font-family:"font";
+    font-size: xx-large;
+    text-align:center;  
+    color:rgb(253, 174, 4);
+}
+
+.bcontent{
+    border: 5px solid;
+    background-color: rgba(255,255,255, 0.75);
+    padding: 10px;
+    font-weight:900;
+    font-size:larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bcontent a{
+    text-decoration: none;
+    color:blue;
+    font-family:"alt_font";
+}
+
+/* Sauce_recipe page */
+/* Sauce_recipe page */
+/* Sauce_recipe page */
+
+.scontent img{
+    border:5px solid rgb(255, 103, 102);
+    border-radius:50%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.sauce_body{
+    background-image: url(https://motionarray.imgix.net/preview-1593723-tBnYiMCuoP411WzV-large.jpg?w=660&q=60&fit=max&auto=format);
+    background-attachment: fixed;
+}
+
+.scontent{
+    border:5px solid;
+    background-color: rgba(255,255,255, 0.75);
+    padding:10px;
+}
+
+.scontent h1 {
+    font-family:"font";
+    text-align:center;
+    color:rgb(255, 103, 102);
+}
+
+.scontent h2 {
+    font-family:"alt_font";
+    color:rgb(255, 103, 102);
+}
+
+
+.scontent li {
+    font-weight:900;
+    font-size:larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+
+.scontent p {
+    font-weight:900;
+    font-size:larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.scontent a {
+    font-family:"alt_font";
+    color:blue;
+    text-decoration:none;
+}
+
+/* fries_recipe page */
+/* fries_recipe page */
+/* fries_recipe page */
+
+
+.fcontent img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border:5px solid rgb(184, 60, 88);
+    border-radius:50%;
+}
+
+.fries_body{
+    background-image:url(https://motionarray.imgix.net/preview-1593723-tBnYiMCuoP411WzV-large.jpg?w=660&q=60&fit=max&auto=format);
+    background-attachment: fixed;
+}
+
+
+.fcontent{
+    border:5px solid;
+    background-color: rgba(255,255,255, 0.75);
+    padding: 10px;  
+}
+
+.fcontent h1{
+    font-family:"font";
+    color:rgb(184, 60, 88);
+    text-align:center;
+}
+
+.fcontent h2{
+    font-family: "alt_font";
+    color:rgb(184, 60, 88);
+}
+.fcontent{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size: larger;
+}
+
+
+.fcontent a {
+    font-family: "alt_font";
+    color:blue;
+    text-decoration:none;
+}
